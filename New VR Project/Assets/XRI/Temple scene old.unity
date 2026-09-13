@@ -161,7 +161,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5ebbe4b97d80f1944875e4c5ef50225f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -96.509
+      value: -96.51
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ebbe4b97d80f1944875e4c5ef50225f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -169,7 +169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ebbe4b97d80f1944875e4c5ef50225f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 80.534
+      value: 80.54
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ebbe4b97d80f1944875e4c5ef50225f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1069,7 +1069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &117524758
 Transform:
   m_ObjectHideFlags: 0
@@ -1466,9 +1466,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1058778026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 980, y: -58.83628}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1960, y: 117.67256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &197488434
@@ -1631,9 +1631,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 848355151}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 980, y: -58.83628}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1960, y: 117.67256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &198951026
@@ -3180,6 +3180,7 @@ Transform:
   m_Children:
   - {fileID: 735381983}
   - {fileID: 142829407}
+  - {fileID: 530937001}
   m_Father: {fileID: 1360087849}
   m_LocalEulerAnglesHint: {x: 0, y: -184.411, z: 0}
 --- !u!1 &315676712
@@ -3577,9 +3578,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1358721672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1053.6, y: -139}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 600, y: 278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &374977726
@@ -4756,9 +4757,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1358721672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1653.6, y: -139}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 600, y: 278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &514689433
@@ -4873,6 +4874,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: f80bb638b36ff0047bf126557e79f34a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 33ba3250de70ec049a7e27cacd702e53, type: 2}
     - target: {fileID: 919132149155446097, guid: f80bb638b36ff0047bf126557e79f34a, type: 3}
       propertyPath: m_Name
       value: AntiochiaTempleLiDAR_trimmed
@@ -4955,7 +4960,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &525852035
 Transform:
   m_ObjectHideFlags: 0
@@ -5004,6 +5009,72 @@ Transform:
   - {fileID: 1476634910}
   m_Father: {fileID: 50760913}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &530937000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 313464924}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.720328
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.291
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.5775967
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.97598666
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.018646859
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.21702486
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0016243764
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -25.085
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.646
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_Name
+      value: AT194 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+--- !u!4 &530937001 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+  m_PrefabInstance: {fileID: 530937000}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &535425156
 GameObject:
   m_ObjectHideFlags: 0
@@ -5086,9 +5157,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1358721672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 624.8, y: -139}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 257.6, y: 278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &542319659
@@ -5199,9 +5270,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1358721672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 248, y: -139}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 496, y: 278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577746542
@@ -5719,6 +5790,68 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
+--- !u!1001 &631792512
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2121184049}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.598034
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.686228
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -41.6926
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+      propertyPath: m_Name
+      value: AT194
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+--- !u!4 &631792513 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cebe7ee7ce38218438bc8ce167fbb213, type: 3}
+  m_PrefabInstance: {fileID: 631792512}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &631984026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2360641278597974214, guid: 342a1af240a6e9e48a21f9eb6ff767bc, type: 3}
@@ -6300,9 +6433,9 @@ RectTransform:
   - {fileID: 845191249}
   m_Father: {fileID: 1969017778}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 180, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 360, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &728516822
@@ -6480,12 +6613,12 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: -12.56}
+  m_Center: {x: 0, y: 1.09, z: 0}
 --- !u!23 &741403889
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6548,7 +6681,7 @@ Transform:
   m_GameObject: {fileID: 741403885}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.9990483, z: -0, w: -0.043619405}
-  m_LocalPosition: {x: -21.7, y: 8, z: -12.6}
+  m_LocalPosition: {x: -17.6, y: 2.29, z: 49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7206,7 +7339,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752688754}
   m_LocalRotation: {x: -0, y: -0.7740961, z: -0, w: -0.6330682}
-  m_LocalPosition: {x: 0, y: 0, z: 25.02}
+  m_LocalPosition: {x: 0, y: 0, z: 24.973}
   m_LocalScale: {x: 0.0109, y: 0.0109, z: 0.0109}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -7216,7 +7349,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -258.55402, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -16.56, y: 2.72}
+  m_AnchoredPosition: {x: -16.328, y: 2.72}
   m_SizeDelta: {x: 2217, y: 1086.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &758713064
@@ -7569,7 +7702,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 1003.5, y: -1337.2363}
-  m_SizeDelta: {x: 1960, y: 395.67255}
+  m_SizeDelta: {x: 1960, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &848355152
 MonoBehaviour:
@@ -8466,7 +8599,7 @@ MonoBehaviour:
     motifs in the overhand.
   blockPlacement: Found 12m. From the southwest side of the temple, it is restored
     as part of the horizontal geison on the right flank of the temple.
-  blockDrawing1: {fileID: 0}
+  blockDrawing1: {fileID: 21300000, guid: 2b92adbdcc95aec47bff8bed53e18a16, type: 3}
 --- !u!114 &887912511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9025,6 +9158,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 81db141d94796dd4887d16367c0879dd, type: 3}
       propertyPath: m_Name
       value: AT194
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 81db141d94796dd4887d16367c0879dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 81db141d94796dd4887d16367c0879dd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11589,7 +11726,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1245249784
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12210,9 +12347,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1431421567}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1003.5, y: -5.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 2008, y: 11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1281773841
@@ -12320,7 +12457,7 @@ Transform:
   m_GameObject: {fileID: 1316582101}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.5238773, z: -0, w: 0.85179377}
-  m_LocalPosition: {x: -0.61928177, y: -10.2, z: -40.536163}
+  m_LocalPosition: {x: -0.67, y: -10.2, z: -40.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12464,7 +12601,7 @@ MonoBehaviour:
     the corner. It is a pilaster capital at the rear corner of the temple.'
   blockPlacement: It was found in the southeast side of the temple, close to its
     rear right corner, and thus it is restored there.
-  blockDrawing1: {fileID: 0}
+  blockDrawing1: {fileID: 21300000, guid: 62fb602177bb5c14d86d1186561762aa, type: 3}
 --- !u!114 &1325743579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12600,6 +12737,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
       propertyPath: m_Name
       value: Temple_+_Blockfield_(FBX)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12765,7 +12906,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 976.8, y: -256.67255}
-  m_SizeDelta: {x: 1953.6, y: 278}
+  m_SizeDelta: {x: 1953.6, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1358721673
 MonoBehaviour:
@@ -13471,7 +13612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1431421567
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13492,7 +13633,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 1003.5, y: -767.53625}
-  m_SizeDelta: {x: 2007, y: 1535.0725}
+  m_SizeDelta: {x: 2007, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1431421568
 MonoBehaviour:
@@ -13771,7 +13912,7 @@ MonoBehaviour:
     not spanning columns.
   blockPlacement: 'Found at the northeast side of the temple, and given it''s a corner
     block of short length, it is restored at the rear left corner of temple. '
-  blockDrawing1: {fileID: 0}
+  blockDrawing1: {fileID: 21300000, guid: 364da29f6e0751d48accbc11d770f068, type: 3}
 --- !u!114 &1476634916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14500,9 +14641,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1058778026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 980, y: -176.50885}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1960, y: 117.67256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1590226139
@@ -15647,7 +15788,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1707004154
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16464,9 +16605,9 @@ RectTransform:
   - {fileID: 401158393}
   m_Father: {fileID: 1969017778}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 540, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 360, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1777988901
@@ -16938,9 +17079,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1058778026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 980, y: -460.34512}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1960, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1838404520
@@ -17852,7 +17993,7 @@ Transform:
   m_GameObject: {fileID: 1938721593}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.6, z: 0}
+  m_LocalPosition: {x: 0, y: 1.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17995,10 +18136,10 @@ RectTransform:
   - {fileID: 1777988900}
   m_Father: {fileID: 1395286229}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 645.5, y: -60}
-  m_SizeDelta: {x: 1251, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1969017779
 MonoBehaviour:
@@ -18093,10 +18234,10 @@ RectTransform:
   - {fileID: 1245249784}
   m_Father: {fileID: 1395286229}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 20, y: -100}
-  m_SizeDelta: {x: 2146, y: 1562}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 1562}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1976408845
 MonoBehaviour:
@@ -18308,7 +18449,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999985369}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9f365cf844c03449bc8973eead2c3c1, type: 3}
   m_Name: 
@@ -18976,7 +19117,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 897.9, y: -521}
-  m_SizeDelta: {x: 1024, y: 663}
+  m_SizeDelta: {x: 1120, y: 745.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037472510
 MonoBehaviour:
@@ -18998,7 +19139,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9dc0889830e241e46901571e6bee02b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19630,6 +19771,38 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &2121184048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2121184049}
+  m_Layer: 0
+  m_Name: Reconstructed blocks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2121184049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121184048}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 631792513}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2127490343 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2360641278597974214, guid: 342a1af240a6e9e48a21f9eb6ff767bc, type: 3}
@@ -19775,7 +19948,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AT 178: Front Pediment Tympanon (S)'
+  m_text: Press on block for description
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 98a63367e1ec04231b12a82ba111881b, type: 2}
   m_sharedMaterial: {fileID: -3797153779951073088, guid: 98a63367e1ec04231b12a82ba111881b, type: 2}
@@ -22668,11 +22841,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This is the central pediment tympanon block of the front fa\xE7ade. It
-    bears sculptural decoration with a male bust in a wreath in the center, held
-    by two flying Victories. The male figure bears the cone-capped quiver and the
-    bow, characteristic features of Apollo, a god whom Emperor Caracalla appealed
-    to for healing, and who appears in coinage minted during the same period."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3cecc8bf759044f02aff3210674d17a4, type: 2}
   m_sharedMaterial: {fileID: -4173301600629982536, guid: 3cecc8bf759044f02aff3210674d17a4, type: 2}
@@ -23338,7 +23507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -889.3363}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7265298754370151156
@@ -23563,7 +23732,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8058091445108322512
 Transform:
   m_ObjectHideFlags: 0
@@ -23866,8 +24035,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The pediment block was found at the southwest of the temple, and is restored
-    at the front fa\xE7ade of the temple. "
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3cecc8bf759044f02aff3210674d17a4, type: 2}
   m_sharedMaterial: {fileID: -4173301600629982536, guid: 3cecc8bf759044f02aff3210674d17a4, type: 2}
@@ -24200,6 +24368,7 @@ SceneRoots:
   - {fileID: 535425157}
   - {fileID: 143649146}
   - {fileID: 282155443}
+  - {fileID: 2121184049}
   - {fileID: 1360087849}
   - {fileID: 82975922}
   - {fileID: 1430555091}
